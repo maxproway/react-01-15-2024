@@ -1,13 +1,11 @@
 import { restaurants } from "../materials/mock";
 import { Layout } from "./components/layout/component";
-import { Restaurant } from "./components/restaurant/component";
+import { Restaurants } from "./components/restaurants/component";
 
 export const App = () => {
   return (
     <Layout>
-      {restaurants.map((restaurant) => (
-        <Restaurant restaurant={restaurant} />
-      ))}
+      <Restaurants restaurants={restaurants} />
     </Layout>
   );
 };
