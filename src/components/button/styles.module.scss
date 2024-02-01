@@ -1,0 +1,33 @@
+.root {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: orangered;
+  color: #fff;
+}
+
+.secondary {
+  background-color: #fff;
+  color: black;
+}
+
+.s {
+  font-size: 12px;
+}
+
+.m {
+  font-size: 14px;
+}
+
+.l {
+  font-size: 20px;
+}
+
+.root:disabled {
+  background-color: gray;
+  cursor: unset;
+}
